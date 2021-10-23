@@ -1,6 +1,3 @@
-# dart_tutorial
-
-
 # Exercice Null Safety
 1) corriger le code pour que la variable a accepte la valeur null
 ```dart
