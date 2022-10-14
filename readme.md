@@ -80,7 +80,18 @@ Iterable<User>? filterOutUnder21(Iterable<User> users) {
 User? findFirstShortNamed(Iterable<User> users) {
   TODO('Implement this method');
 }
+class User {
+  String name;
+  int age;
+
+  User(
+    this.name,
+    this.age,
+  );
+}
 ```
+
+
 # Gestion des contacts
 1) définir une classe Contact(name,surname,addressLine1,addressLine2,_email,_mobileTel,_homeTel)
 homeTel et addressLine2 peuvent être null (définir un constructeur simple et un constructeur sans addressLine2 et _homeTel)
@@ -94,15 +105,4 @@ homeTel et addressLine2 peuvent être null (définir un constructeur simple et u
 9) définir la méthode addContact qui permet d'ajouter un contact à la liste de contact
 10) définir la méthode deleteContact qui permet de supprimer un contact de la liste de contacts
 11) définir searchContact(String contact) qui cherche et retourne tous les contacts contenant une chaine quelconque contact
-
-class User {
-  String name;
-  int age;
-
-  User(
-    this.name,
-    this.age,
-  );
-}
-```
 
