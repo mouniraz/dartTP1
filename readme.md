@@ -35,10 +35,16 @@ void main() {
   print('c is $c.');
 }
 ```
-# Exercice fibonacci 
-1) Ecrire une fonction qui calcule Fibonacci(n) n>=0 de 2 façons différentes: recursive et itérative
-2) Tester la fonction dans le programme principal main
-# Exercice Arrow functions
+# Les fonctions
+## Les paramètres nommés
+1) Crée une fonction showIdentity avec des paramètres nommés optionnels (nom, age) pour les informations suivantes :
+    nom (String)
+    âge (int)
+    pays (String)
+2) Tester la fonction avec ou son paramètre
+3) définir la meme fonction en utilisant les paramètres nommés de position (nom, age)
+4) Définir avec la forme Arrow fonction
+## Exercice Arrow functions
 1) terminer ce code avec des fonctions Arrow Syntax
 ```dart
 class MyClass {
@@ -90,9 +96,7 @@ class User {
   );
 }
 ```
-
-
-# Gestion des contacts
+# Carnet de contact Dart 
 1) définir une classe Contact(name,,surname,address,_email,_mobileTel,_homeTel)
 homeTel et address peuvent être null (définir un constructeur simple et un constructeur  _homeTel)
 2)ajouter un get nameSurname qui retourne une chaine contenant le name et le surname.
@@ -100,7 +104,7 @@ homeTel et address peuvent être null (définir un constructeur simple et un con
 4) ajouter 2 méthodes privées validateMobileTel(mobileTel) et validatehomeTel(homeTel )
 5) ajouter un set email qui permet de modifier l'email avec un email valide
 6) ajouter les setters mobileTel et homeTel
-7) définir une Classe ListContact(List<Contact> listContact)
+7) définir une Classe CarnetContact(List<Contact> listContact)
 8) définir la méthode addContact qui permet d'ajouter un contact à la liste de contact
 9) définir la méthode deleteContact qui permet de supprimer un contact de la liste de contacts
 10) définir searchContact(String contact) qui cherche et retourne tous les contacts contenant une chaine quelconque contact
