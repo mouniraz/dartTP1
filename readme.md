@@ -110,6 +110,7 @@ homeTel et address peuvent être null (définir un constructeur simple et un con
 10) définir searchContact(String contact) qui cherche et retourne tous les contacts contenant une chaine quelconque contact
 
 # Combat 
+# Combat 
 1)Créer une classe abstraite Enemy 
 Attributs: 
 String name : Nom de l'ennemi 
@@ -125,6 +126,12 @@ Mixin Ranged:
 Méthode shoot()
 Mixin Melee:
 Méthode meleeAttack()
+3)Créer de classes d'ennemis concrètes
+Enemy1: Un ennemi volant qui tire des lasers
+Enemy2: Un ennemi au corps à corps rapide
+Enemy3: Un ennemi volant et tirant des projectiles
+4)Créer une liste d'ennemis de différents types.
+Boucler sur la liste et appeler les méthodes attack() et takeDamage() pour simuler des combats.
 3)Créer de classes d'ennemis concrètes
 Enemy1: Un ennemi volant qui tire des lasers
 Enemy2: Un ennemi au corps à corps rapide
