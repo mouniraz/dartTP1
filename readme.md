@@ -109,3 +109,25 @@ homeTel et address peuvent être null (définir un constructeur simple et un con
 9) définir la méthode deleteContact qui permet de supprimer un contact de la liste de contacts
 10) définir searchContact(String contact) qui cherche et retourne tous les contacts contenant une chaine quelconque contact
 
+# Combat 
+1)Créer une classe abstraite Enemy 
+Attributs: 
+String name : Nom de l'ennemi 
+int health : Points de vie 
+double speed : Vitesse de déplacement 
+Méthodes abstraites: 
+void attack(): Méthode pour définir l'attaque de l'ennemi 
+void takeDamage(int damage): Méthode pour infliger des dégâts à l'ennemi 
+2) Créer de mixins pour les comportements spécifiques
+Mixin Flying:
+Méthode fly()
+Mixin Ranged:
+Méthode shoot()
+Mixin Melee:
+Méthode meleeAttack()
+3)Créer de classes d'ennemis concrètes
+Enemy1: Un ennemi volant qui tire des lasers
+Enemy2: Un ennemi au corps à corps rapide
+Enemy3: Un ennemi volant et tirant des projectiles
+4)Créer une liste d'ennemis de différents types.
+Boucler sur la liste et appeler les méthodes attack() et takeDamage() pour simuler des combats.
