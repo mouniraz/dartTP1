@@ -132,7 +132,7 @@ homeTel et address peuvent être null (définir un constructeur simple et un con
   Enemy3: Un ennemi volant et tirant des projectiles </br>
 4. Créer une liste d'ennemis de différents types.
 5. Boucler sur la liste et appeler les méthodes attack() et takeDamage() pour simuler des combats. </br>
-6. Créer de classes d'ennemis concrètes
+6. Créer de classes d'ennemis concrètes </br>
 Enemy1: Un ennemi volant qui tire des lasers </br>
 Enemy2: Un ennemi au corps à corps rapide </br>
 Enemy3: Un ennemi volant et tirant des projectiles </br>
