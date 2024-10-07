@@ -112,29 +112,29 @@ homeTel et address peuvent être null (définir un constructeur simple et un con
 # Combat 
 # Combat 
 1. Créer une classe abstraite Enemy
-   Attributs: 
-  String name : Nom de l'ennemi 
-  int health : Points de vie 
-  double speed : Vitesse de déplacement 
-  Méthodes abstraites: 
-  void attack(): Méthode pour définir l'attaque de l'ennemi 
-  void takeDamage(int damage): Méthode pour infliger des dégâts à l'ennemi
-2. Créer de mixins pour les comportements spécifiques
-  Mixin Flying:
-  Méthode fly()
-  Mixin Ranged:
-  Méthode shoot()
-  Mixin Melee:
-  Méthode meleeAttack()
-3. Créer de classes d'ennemis concrètes
-  Enemy1: Un ennemi volant qui tire des lasers
-  Enemy2: Un ennemi au corps à corps rapide
-  Enemy3: Un ennemi volant et tirant des projectiles
+   Attributs: </br>
+  String name : Nom de l'ennemi  </br>
+  int health : Points de vie  </br>
+  double speed : Vitesse de déplacement  </br>
+  Méthodes abstraites:  </br>
+  void attack(): Méthode pour définir l'attaque de l'ennemi </br> 
+  void takeDamage(int damage): Méthode pour infliger des dégâts à l'ennemi </br>
+2. Créer de mixins pour les comportements spécifiques </br>
+  Mixin Flying: </br>
+  Méthode fly() </br>
+  Mixin Ranged: </br>
+  Méthode shoot() </br>
+  Mixin Melee: </br>
+  Méthode meleeAttack() </br>
+3. Créer de classes d'ennemis concrètes </br>
+  Enemy1: Un ennemi volant qui tire des lasers </br>
+  Enemy2: Un ennemi au corps à corps rapide </br>
+  Enemy3: Un ennemi volant et tirant des projectiles </br>
 4. Créer une liste d'ennemis de différents types.
-5. Boucler sur la liste et appeler les méthodes attack() et takeDamage() pour simuler des combats.
+5. Boucler sur la liste et appeler les méthodes attack() et takeDamage() pour simuler des combats. </br>
 6. Créer de classes d'ennemis concrètes
-Enemy1: Un ennemi volant qui tire des lasers
-Enemy2: Un ennemi au corps à corps rapide
-Enemy3: Un ennemi volant et tirant des projectiles
-4. Créer une liste d'ennemis de différents types.
+Enemy1: Un ennemi volant qui tire des lasers </br>
+Enemy2: Un ennemi au corps à corps rapide </br>
+Enemy3: Un ennemi volant et tirant des projectiles </br>
+4. Créer une liste d'ennemis de différents types. </br>
 Boucler sur la liste et appeler les méthodes attack() et takeDamage() pour simuler des combats.
